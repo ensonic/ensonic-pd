@@ -15,4 +15,4 @@ TODO:
 * add correlation meters (e.g. using `mavg` of the side channel)
 * figure out if we can overlay the scopes with additional graphics
 * change width params from 0.0 ... 2.0 to 0 % ... 200 %
-* add dry/wet control
+
