@@ -49,6 +49,12 @@
 #X obj 24 513 wico;
 #X obj 239 513 wico;
 #X obj 387 513 wico;
+#X text 25 74 L;
+#X text 163 74 R;
+#X text 200 74 L;
+#X text 338 74 R;
+#X text 375 74 L;
+#X text 513 74 R;
 #X connect 0 0 24 0;
 #X connect 0 0 25 0;
 #X connect 0 0 29 0;
