@@ -12,7 +12,7 @@ A phase-scope with stereo width control. Available as single and tripple band ve
 
 TODO:
 * add normalisation for phasescopes
-* add correlation meters (e.g. using `mavg` of the side channel)
+* add correlation meters (-1 (out of phase) .. +1 (mono): abs(l-r)+1 )
 * figure out if we can overlay the scopes with additional graphics
-* change width params from 0.0 ... 2.0 to 0 % ... 200 %
+* wico3: Mute/Solo for each band?
 
