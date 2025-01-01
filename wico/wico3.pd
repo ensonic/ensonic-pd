@@ -20,9 +20,9 @@
 #X msg 853 167 4500;
 #X obj 853 206 send fhp;
 #X obj 677 24 loadbang;
-#X obj 80 283 nbx 3 18 0 200 0 1 empty empty % 45 10 0 12 #e4e4e4 #373737 #373737 100 256;
-#X obj 255 285 nbx 3 18 0 200 0 1 empty empty % 45 10 0 12 #e4e4e4 #373737 #373737 100 256;
-#X obj 430 285 nbx 3 18 0 200 0 1 empty empty % 45 10 0 12 #e4e4e4 #373737 #373737 100 256;
+#X obj 80 283 nbx 3 18 0 200 0 1 empty empty % 49 10 0 12 #e4e4e4 #373737 #373737 100 256;
+#X obj 255 285 nbx 3 18 0 200 0 1 empty empty % 49 10 0 12 #e4e4e4 #373737 #373737 100 256;
+#X obj 430 285 nbx 3 18 0 200 0 1 empty empty % 49 10 0 12 #e4e4e4 #373737 #373737 100 256;
 #X obj 24 384 lowpass~;
 #X obj 387 377 highpass~;
 #X obj 107 384 lowpass~;
@@ -45,7 +45,7 @@
 #X msg 399 49 set \$1;
 #X msg 137 283 set \$1;
 #X msg 317 285 set \$1;
-#X msg 484 285 set \$1;
+#X msg 493 285 set \$1;
 #X obj 24 513 wico;
 #X obj 239 513 wico;
 #X obj 387 513 wico;
