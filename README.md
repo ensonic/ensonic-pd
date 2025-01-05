@@ -17,4 +17,8 @@ TODO:
 * add pan controls (like width)
   * maybe switch width + pan to knobs
 * wico3: Mute/Solo for each band?
-
+* initialize num-lines in scope from sample-rate (e.g. 50 ms)
+* add pan-meter (avg of width over e.g. the 50 ms)
+  * if this is consitently off center, one might want to adjust via pan control
+  * maybe add a button to apply correction (e.g. if 5% to left, move pan 5% to right)
+  
