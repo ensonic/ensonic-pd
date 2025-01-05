@@ -67,7 +67,7 @@
 #X connect 21 0 15 0;
 #X connect 22 0 0 0;
 #X restore 374 49 pd parameters;
-#X obj 41 40 pic 0 diag_cross_169_g.png empty empty 0 0;
+#X obj 41 40 pic 0 diag_cross_169.png empty empty 0 0;
 #X connect 1 0 7 0;
 #X connect 1 0 13 0;
 #X connect 1 1 7 1;
