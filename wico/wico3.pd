@@ -39,7 +39,7 @@
 #X obj 250 752 drywet;
 #X obj 25 232 cnv 15 150 10 empty cml empty 20 12 0 14 #e4e4e4 #373737 0;
 #X obj 200 232 cnv 15 150 10 empty cmm empty 20 12 0 14 #e4e4e4 #373737 0;
-#X obj 375 232 cnv 15 149 10 empty cmh empty 20 12 0 14 #e4e4e4 #373737 0;
+#X obj 375 232 cnv 15 150 10 empty cmh empty 20 12 0 14 #e4e4e4 #373737 0;
 #X obj 515 577 avg~;
 #X obj 515 617 clip 0 0.5;
 #X obj 515 653 !- 0.5;
@@ -223,12 +223,10 @@
 #X connect 1 1 24 0;
 #X connect 1 1 37 1;
 #X connect 4 0 61 0;
-#X connect 7 0 9 0;
-#X connect 7 0 17 1;
-#X connect 7 0 19 1;
-#X connect 8 0 10 0;
-#X connect 8 0 18 1;
-#X connect 8 0 20 1;
+#X connect 9 0 19 1;
+#X connect 9 0 17 1;
+#X connect 10 0 20 1;
+#X connect 10 0 18 1;
 #X connect 13 0 35 0;
 #X connect 13 0 44 0;
 #X connect 14 0 26 2;
