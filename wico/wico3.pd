@@ -39,7 +39,7 @@
 #X obj 250 752 drywet;
 #X obj 25 232 cnv 15 150 10 empty cml empty 20 12 0 14 #e4e4e4 #373737 0;
 #X obj 200 232 cnv 15 150 10 empty cmm empty 20 12 0 14 #e4e4e4 #373737 0;
-#X obj 375 232 cnv 15 150 10 empty cmh empty 20 12 0 14 #e4e4e4 #373737 0;
+#X obj 375 232 cnv 15 149 10 empty cmh empty 20 12 0 14 #e4e4e4 #373737 0;
 #X obj 515 577 avg~;
 #X obj 515 617 clip 0 0.5;
 #X obj 515 653 !- 0.5;
@@ -211,6 +211,9 @@
 #X restore 677 49 pd parameters;
 #X obj 287 624 sum~;
 #X obj 339 624 sum~;
+#X obj 38 88 pic 0 diag_cross_125_r.png empty empty 0 0;
+#X obj 213 88 pic 0 diag_cross_125_g.png empty empty 0 0;
+#X obj 388 88 pic 0 diag_cross_125_b.png empty empty 0 0;
 #X connect 1 0 17 0;
 #X connect 1 0 18 0;
 #X connect 1 0 22 0;
