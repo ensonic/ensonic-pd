@@ -8,8 +8,8 @@
 #X obj 375 75 scope~ 150 150 2 3 256 -1 1 0 0 0 0 77 77 108 228 228 255 183 183 210 0 empty;
 #X obj 128 15 hsl 128 25 50 500 0 0 low-split.hsl.s low-split.hsl.r empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 306 15 hsl 128 25 1500 7500 0 0 high-split.hsl.s high-split.hsl.r empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
-#X obj 163 48 nbx 4 18 50 500 0 0 low-split.nbx.s low-split.nbx.r Hz 55 10 0 12 #e4e4e4 #373737 #373737 0 256;
-#X obj 336 49 nbx 4 18 1500 7500 0 0 high-split.nbx.s high-split.nbx.r Hz 55 10 0 12 #e4e4e4 #373737 #373737 0 256;
+#X obj 163 48 nbx 4 18 50 500 0 0 low-split.nbx.s low-split.nbx.r Hz 60 10 0 12 #e4e4e4 #373737 #373737 0 256;
+#X obj 336 49 nbx 4 18 1500 7500 0 0 high-split.nbx.s high-split.nbx.r Hz 60 10 0 12 #e4e4e4 #373737 #373737 0 256;
 #X obj 203 250 hsl 150 25 0 200 0 0 mid-width.hsl.s mid-width.hsl.r empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 378 250 hsl 150 25 0 200 0 0 high-width.hsl.s high-width.hsl.r empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 661 250 loadbang;
