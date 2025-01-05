@@ -5,7 +5,7 @@
 #X obj 28 250 hsl 200 25 0 200 0 0 width.hsl.s width.hsl.r empty -2 -8 0 10 #e4e4e4 #4d4d4d #373737 0 1;
 #X obj 49 500 dac~;
 #X obj 280 24 bng 25 250 50 0 empty empty Reset -3 40 0 12 #e4e4e4 #4d4d4d #373737;
-#X obj 374 213 loadbang;
+#X obj 349 173 loadbang;
 #X obj 49 400 wico;
 #X obj 105 285 nbx 3 18 0 200 0 0 width.nbx.s width.nbx.r % 50 10 0 12 #e4e4e4 #373737 #373737 0 256;
 #X text 24 22 L;
@@ -13,15 +13,15 @@
 #X obj 263 247 knob 50 0 100 0 100 dw.knob.s dw.knob.r #E4E4E4 #B7B7B7 #4D4D4D 1 0 0 0 1 270 0 0 0;
 #X text 257 296 Dry / Wet;
 #X obj 49 447 drywet;
-#X obj 25 232 cnv 15 200 10 empty cm empty 20 12 0 14 #e4e4e4 #373737 0;
-#X msg 263 594 \; cm vis_size \$1 \$2;
-#X obj 263 401 avg~;
-#X obj 263 512 * 400;
-#X obj 263 441 clip 0 0.5;
-#X obj 263 477 !- 0.5;
-#X obj 263 367 metro 100;
-#X obj 349 297 tgl 25 1 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 1 1;
-#X obj 263 548 pack 0 10;
+#X obj 25 232 cnv 15 199 10 empty cm empty 20 12 0 14 #e4e4e4 #373737 0;
+#X msg 327 576 \; cm vis_size \$1 \$2;
+#X obj 327 383 avg~;
+#X obj 327 494 * 400;
+#X obj 327 423 clip 0 0.5;
+#X obj 327 459 !- 0.5;
+#X obj 327 349 metro 100;
+#X obj 359 297 tgl 25 1 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 1 1;
+#X obj 327 530 pack 0 10;
 #N canvas 0 50 450 300 parameters 0;
 #X obj 248 314 param width;
 #X obj 151 314 initmess 100;
@@ -66,8 +66,10 @@
 #X connect 20 0 10 0;
 #X connect 21 0 15 0;
 #X connect 22 0 0 0;
-#X restore 374 49 pd parameters;
+#X restore 349 70 pd parameters;
 #X obj 41 40 pic 0 diag_cross_169.png empty empty 0 0;
+#X obj 359 245 s pd;
+#X msg 359 210 pluginmode light;
 #X connect 1 0 7 0;
 #X connect 1 0 13 0;
 #X connect 1 1 7 1;
@@ -75,6 +77,7 @@
 #X connect 5 0 23 0;
 #X connect 6 0 11 0;
 #X connect 6 0 20 0;
+#X connect 6 0 26 0;
 #X connect 7 0 13 2;
 #X connect 7 1 13 3;
 #X connect 7 2 2 1;
@@ -91,3 +94,4 @@
 #X connect 20 0 16 0;
 #X connect 21 0 20 0;
 #X connect 22 0 15 0;
+#X connect 26 0 25 0;
