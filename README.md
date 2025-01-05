@@ -12,7 +12,9 @@ A phase-scope with stereo width control. Available as single and tripple band ve
 
 TODO:
 * add normalisation for phasescopes
-* figure out if we can overlay the scopes with additional graphics
-  * we can't overlay a canvas as it does not have a transparent background.
+* add avg pan overlay
+  * need to figure how to overlay dynamic gfx
+* add pan controls (like width)
+  * maybe switch width + pan to knobs
 * wico3: Mute/Solo for each band?
 
