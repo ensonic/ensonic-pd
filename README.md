@@ -20,17 +20,17 @@ shows how the audio signal occupies the stereo space. There are 5 extremes:
 1. A diagonal line starting from the top right is a signal panned fully to the
    right
 
-In practice the scope will show a swirl of lines around the center.
+In practice the scope will show a swirl of lines around the center. 🌀
 
 Below the scope is a correlation meter. If the meter is fully left the signal is
 completely out of phase. And if the meter is fully right the signal is mono. 
 This meter is averaged over the last 100 ms of sound.
 
-Below the meter is the stereo width control. By default it is set to 100% which
+Below the meter is the stereo width control. By default it is set to 100%, which
 does not alter the signal. Lower settings will decrease the width down to a mono
-signal. Settings larger then 100% will increase the stereo width.
+signal. Settings larger than 100% will increase the stereo width.
 
-The 3 band version has 3 copies of the single band version plus 3 controls to
+The 3 band version has 3 copies of the single band version plus 2 controls to
 set the split frequencies. This setup allows you to analyze and control the
 stereo width for each of the 3 ranges. Typically you want to avoid wide stereo
 signals in your lower frequencies.
