@@ -41,13 +41,13 @@ signal.
 
 TODO:
 * add normalization for phase-scopes?
-* add a help button linking to this README?
 * wico3: Mute/Solo for each band?
 * initialize num-lines in scope from sample-rate (e.g. 50 ms)
 * add pan-meter (avg of width over e.g. the 50 ms)
   * if this is consistently off center, one might want to adjust via pan control
   * maybe add a button to apply correction (e.g. if 5% to left, move pan 5% to
-    right) 
+    right)
+  * for the meter use 2 canvas objects - one for left bia, one for right bias
 * add pan controls (like width)
 * maybe group correlation-meter + width-control and pan-meter + pan-control into
   some labeled boxes
